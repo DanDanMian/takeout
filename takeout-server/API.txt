@@ -1,0 +1,52 @@
+
+POST	/user/login
+
+POST	/user/register
+
+PUT	/user
+
+GET	/chefs?type=String&limit=Number
+
+GET 	/chefs/:id/menus
+
+GET 	/menus/:id
+
+POST 	/orders
+
+PUT	/discounts
+
+PUT	/chefs/:id
+
+
+
+POST	/chef/login
+
+POST	/chef/register
+
+PUT	/chef
+
+POST 	/chef/menus
+
+POST	/chef/menus/:id/dishs
+
+GET 	/chef/orders
+
+PUT 	/chef/orders/:id
+
+GET 	/chef/summary
+
+
+
+POST	/admin/login
+
+GET 	/users
+
+PUT	/users/:id
+
+GET	/orders
+
+GET	/chefs
+
+PUT	/chefs/:id
+
+GET 	/admin/summary

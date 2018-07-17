@@ -1,0 +1,108 @@
+Account {
+	username: 			String
+	password: 			String
+	activated: 			Boolean
+}
+
+Admin {
+	account 			<Account>
+	name				String
+	description			String
+}
+
+User {
+	account 			<Account>
+	name				String
+	emailAddress		String
+	phoneNumber			String
+	homeLocation {
+		address 		String
+		longitude		Number
+		latitude		Number
+	}
+	workLocation {
+		address 		String
+		longitude		Number
+		latitude		Number
+	}
+	points				Number
+}
+
+Chef {
+	account 			<Account>
+	name				String
+	description			String
+	emailAddress		String
+	phoneNumber			String
+	rating {
+		stars			Number
+		votes			Number
+	}
+	location {
+		address 		String
+		longitude		Number
+		latitude		Number
+	}
+	storehours {
+		open			Number
+		close			Number
+		saturday		Boolean
+		sunday			Boolean
+	}
+	profilePhoto		<Photo>
+	licencePhoto		<Photo>
+	cuisineType			String
+	menus 				[Menu]
+	paymentRatio		Number
+	licence {
+		dateIssued		Date
+		espDate			Date
+		placeIssued		String
+	}
+	bank {
+		bankName		String
+		institution		String
+		Branch			String
+		Acccount		String
+	}
+	revenue				Number
+	ordernum			Number
+}
+
+Menu {
+	name				String
+	description			String
+	dishs 				[Dish]
+}
+	
+Dish {
+	name				String
+	description			String
+	price 				Number
+	photo 				<Photo>
+	cuisineType			String
+	cooktime			Number
+	quantity			Number
+}
+
+Order {
+	user 				<User>
+	chef 				<Chef>
+	dishs				[Dish]
+	discount 			<Discount>
+	note				String
+	price 				Number
+	status				String
+	accepted			Boolean
+	deliveryLocation {
+		address 		String
+		longitude		Number
+		latitude		Number
+	}
+}
+
+Discount {
+	codestring			String
+	discountRate			Number
+	beenUsed			Boolean
+}

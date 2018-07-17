@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F122C5701FF8D6BA00F02B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122C56F1FF8D6BA00F02B61 /* AppDelegate.swift */; };
+		F122C5751FF8D6BA00F02B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122C5731FF8D6BA00F02B61 /* Main.storyboard */; };
+		F122C5771FF8D6BA00F02B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F122C5761FF8D6BA00F02B61 /* Assets.xcassets */; };
+		F122C57A1FF8D6BA00F02B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F122C5781FF8D6BA00F02B61 /* LaunchScreen.storyboard */; };
+		F122C5851FF8D6BA00F02B61 /* takeoutfoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122C5841FF8D6BA00F02B61 /* takeoutfoodTests.swift */; };
+		F122C5901FF929E600F02B61 /* dropdownArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F122C58F1FF929E600F02B61 /* dropdownArrow.png */; };
+		F122C5921FF9314100F02B61 /* chef george.png in Resources */ = {isa = PBXBuildFile; fileRef = F122C5911FF9314100F02B61 /* chef george.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F122C5811FF8D6BA00F02B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F122C5641FF8D6BA00F02B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F122C56B1FF8D6BA00F02B61;
+			remoteInfo = takeoutfood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F122C56C1FF8D6BA00F02B61 /* takeoutfood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takeoutfood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122C56F1FF8D6BA00F02B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F122C5741FF8D6BA00F02B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F122C5761FF8D6BA00F02B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F122C5791FF8D6BA00F02B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F122C57B1FF8D6BA00F02B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122C5801FF8D6BA00F02B61 /* takeoutfoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = takeoutfoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122C5841FF8D6BA00F02B61 /* takeoutfoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = takeoutfoodTests.swift; sourceTree = "<group>"; };
+		F122C5861FF8D6BA00F02B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F122C58F1FF929E600F02B61 /* dropdownArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdownArrow.png; sourceTree = "<group>"; };
+		F122C5911FF9314100F02B61 /* chef george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chef george.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F122C5691FF8D6BA00F02B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122C57D1FF8D6BA00F02B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F122C5631FF8D6BA00F02B61 = {
+			isa = PBXGroup;
+			children = (
+				F122C56E1FF8D6BA00F02B61 /* takeoutfood */,
+				F122C5831FF8D6BA00F02B61 /* takeoutfoodTests */,
+				F122C56D1FF8D6BA00F02B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F122C56D1FF8D6BA00F02B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F122C56C1FF8D6BA00F02B61 /* takeoutfood.app */,
+				F122C5801FF8D6BA00F02B61 /* takeoutfoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F122C56E1FF8D6BA00F02B61 /* takeoutfood */ = {
+			isa = PBXGroup;
+			children = (
+				F122C56F1FF8D6BA00F02B61 /* AppDelegate.swift */,
+				F122C5731FF8D6BA00F02B61 /* Main.storyboard */,
+				F122C5761FF8D6BA00F02B61 /* Assets.xcassets */,
+				F122C5781FF8D6BA00F02B61 /* LaunchScreen.storyboard */,
+				F122C57B1FF8D6BA00F02B61 /* Info.plist */,
+				F122C58F1FF929E600F02B61 /* dropdownArrow.png */,
+				F122C5911FF9314100F02B61 /* chef george.png */,
+			);
+			path = takeoutfood;
+			sourceTree = "<group>";
+		};
+		F122C5831FF8D6BA00F02B61 /* takeoutfoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				F122C5841FF8D6BA00F02B61 /* takeoutfoodTests.swift */,
+				F122C5861FF8D6BA00F02B61 /* Info.plist */,
+			);
+			path = takeoutfoodTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F122C56B1FF8D6BA00F02B61 /* takeoutfood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122C5891FF8D6BA00F02B61 /* Build configuration list for PBXNativeTarget "takeoutfood" */;
+			buildPhases = (
+				F122C5681FF8D6BA00F02B61 /* Sources */,
+				F122C5691FF8D6BA00F02B61 /* Frameworks */,
+				F122C56A1FF8D6BA00F02B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takeoutfood;
+			productName = takeoutfood;
+			productReference = F122C56C1FF8D6BA00F02B61 /* takeoutfood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F122C57F1FF8D6BA00F02B61 /* takeoutfoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F122C58C1FF8D6BA00F02B61 /* Build configuration list for PBXNativeTarget "takeoutfoodTests" */;
+			buildPhases = (
+				F122C57C1FF8D6BA00F02B61 /* Sources */,
+				F122C57D1FF8D6BA00F02B61 /* Frameworks */,
+				F122C57E1FF8D6BA00F02B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F122C5821FF8D6BA00F02B61 /* PBXTargetDependency */,
+			);
+			name = takeoutfoodTests;
+			productName = takeoutfoodTests;
+			productReference = F122C5801FF8D6BA00F02B61 /* takeoutfoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F122C5641FF8D6BA00F02B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fred;
+				TargetAttributes = {
+					F122C56B1FF8D6BA00F02B61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F122C57F1FF8D6BA00F02B61 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F122C56B1FF8D6BA00F02B61;
+					};
+				};
+			};
+			buildConfigurationList = F122C5671FF8D6BA00F02B61 /* Build configuration list for PBXProject "takeoutfood" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F122C5631FF8D6BA00F02B61;
+			productRefGroup = F122C56D1FF8D6BA00F02B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F122C56B1FF8D6BA00F02B61 /* takeoutfood */,
+				F122C57F1FF8D6BA00F02B61 /* takeoutfoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F122C56A1FF8D6BA00F02B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122C57A1FF8D6BA00F02B61 /* LaunchScreen.storyboard in Resources */,
+				F122C5921FF9314100F02B61 /* chef george.png in Resources */,
+				F122C5901FF929E600F02B61 /* dropdownArrow.png in Resources */,
+				F122C5771FF8D6BA00F02B61 /* Assets.xcassets in Resources */,
+				F122C5751FF8D6BA00F02B61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122C57E1FF8D6BA00F02B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F122C5681FF8D6BA00F02B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122C5701FF8D6BA00F02B61 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F122C57C1FF8D6BA00F02B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F122C5851FF8D6BA00F02B61 /* takeoutfoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F122C5821FF8D6BA00F02B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F122C56B1FF8D6BA00F02B61 /* takeoutfood */;
+			targetProxy = F122C5811FF8D6BA00F02B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F122C5731FF8D6BA00F02B61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122C5741FF8D6BA00F02B61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F122C5781FF8D6BA00F02B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F122C5791FF8D6BA00F02B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F122C5871FF8D6BA00F02B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F122C5881FF8D6BA00F02B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F122C58A1FF8D6BA00F02B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = takeoutfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.takeoutfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F122C58B1FF8D6BA00F02B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = takeoutfood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.takeoutfood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F122C58D1FF8D6BA00F02B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = takeoutfoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.takeoutfoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeoutfood.app/takeoutfood";
+			};
+			name = Debug;
+		};
+		F122C58E1FF8D6BA00F02B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = takeoutfoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.takeoutfoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/takeoutfood.app/takeoutfood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F122C5671FF8D6BA00F02B61 /* Build configuration list for PBXProject "takeoutfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122C5871FF8D6BA00F02B61 /* Debug */,
+				F122C5881FF8D6BA00F02B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122C5891FF8D6BA00F02B61 /* Build configuration list for PBXNativeTarget "takeoutfood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122C58A1FF8D6BA00F02B61 /* Debug */,
+				F122C58B1FF8D6BA00F02B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F122C58C1FF8D6BA00F02B61 /* Build configuration list for PBXNativeTarget "takeoutfoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F122C58D1FF8D6BA00F02B61 /* Debug */,
+				F122C58E1FF8D6BA00F02B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F122C5641FF8D6BA00F02B61 /* Project object */;
+}
